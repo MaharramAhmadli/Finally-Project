@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1898B5;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  background-color: rgb(12, 12, 255);
+}
+
+::selection {
+  background-color: rgb(12, 12, 255);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #09218a;
+  height: 80px;
+}
+
+.container-fluid {
+  margin-left: 35%;
+  padding-left: 7%;
+}
+
+.display {
+  margin-left: 7%;
+}
+
+.nav-item {
+  color: white;
+  position: relative;
+}
+.nav-item .nav-link {
+  color: white;
+}
+.nav-item .line {
+  position: absolute;
+  background-color: white;
+  width: 58px;
+  height: 1px;
+  display: none;
+}
+
+.nav-item:hover .line {
+  display: block;
+}
+
+.nav-item .line-t {
+  position: absolute;
+  background-color: white;
+  width: 138px;
+  height: 1px;
+  display: none;
+}
+
+.nav-item:hover .line-t {
+  display: block;
+}
+
+.card-body {
+  height: 50%;
+}
+
+.page2 {
+  margin-top: 200px;
+}
+
+.page2 .card {
+  border: none;
+}
+.page2 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+}
+.page2 h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 33px;
+}
+
+.page3 {
+  margin-top: 200px;
+}
+.page3 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.page4 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.page5 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.page6 {
+  height: 800px;
+  margin-top: 200px;
+  background-color: #252525;
+}
+.page6 .card {
+  margin-top: 80px;
+}
+.page6 h4 {
+  color: white;
+  margin-top: 30px;
+}
+.page6 span {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.page6 .card {
+  height: 500px;
+  background-color: #252525;
+}
+.page6 .card h6 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.page6 .card p {
+  text-align: center;
+  color: white;
+}
+.page6 .card h5 {
+  text-align: center;
+  color: white;
+}
+
+.page6 .card img {
+  margin-top: 30px;
+}
+.page6 .card .first {
+  margin-top: 65px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+.page6 .card h3 {
+  color: white;
+  text-align: center;
+  margin-top: 26px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Permanent Marker", cursive;
+}
+.page6 .card p {
+  font-size: 9px;
+}
+
+.page6 .card .las {
+  color: white;
+  text-align: center;
+  margin-top: 13px;
+}
+.page6 .card .third {
+  font-size: 24px;
+  text-align: center;
+}
+.page6 .card .card-title-a {
+  font-size: 10px;
+}
+.page6 .card h4 {
+  text-align: center;
+}
+
+.page6 .card {
+  border: 0.1px solid rgba(255, 255, 255, 0.097);
+}
+.page6 .card .card-title-b {
+  margin-top: 22px;
+}
+.page6 .card h1 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 41px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Permanent Marker", cursive;
+}
+.page6 .card .card-title-c {
+  margin-top: 14px;
+}
+
+.page6 .card:hover {
+  color: rgba(74, 65, 65, 0.551);
+  opacity: 0.7;
+  border: 1px solid white;
+}
+
+.page7 {
+  padding: 100px;
+  background-color: rgb(132, 39, 132);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page7 .icon {
+  background: #0d7444;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.page7 .icon:hover {
+  transform: translateY(5%);
+}
