@@ -102,16 +102,37 @@ body {
   margin: 8px !important;
 }
 
+.page3 .card:hover {
+  background-color: #09218a;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(41, 27, 171, 0.759) !important;
+}
+
 .page4 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
   width: 30% !important;
   margin: 8px !important;
 }
 
+.page4 .card:hover {
+  background-color: #09218a;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(41, 27, 171, 0.759) !important;
+}
+
 .page5 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
   width: 30% !important;
   margin: 8px !important;
+}
+
+.page5 .card:hover {
+  background-color: #09218a;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(41, 27, 171, 0.759) !important;
 }
 
 .page6 {
@@ -209,19 +230,23 @@ body {
 
 .page6 .card:hover {
   color: rgba(74, 65, 65, 0.551);
-  opacity: 0.7;
+  opacity: 0.9;
   border: 1px solid white;
 }
 
 .page7 {
+  margin-top: 200px;
   padding: 100px;
-  background-color: rgb(132, 39, 132);
+  background-color: #252525;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.page7 h5 {
+  color: white;
+}
 .page7 .icon {
-  background: #0d7444;
+  background: white;
   border-radius: 50%;
   padding: 9px;
   margin: 10px;
@@ -236,4 +261,788 @@ body {
 
 .page7 .icon:hover {
   transform: translateY(5%);
+}
+
+.page7 .la-facebook:hover {
+  color: rgb(12, 12, 255);
+  font-size: 30px;
+}
+.page7 .la-twitter:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.page7 .la-instagram:hover {
+  color: #AC3FC8;
+  font-size: 30px;
+}
+
+.page7 .la-whatsapp:hover {
+  color: rgba(44, 194, 44, 0.836);
+  font-size: 30px;
+}
+.page7 .la-linkedin-in:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.page7 .la-google-play:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+
+.page7 .la-youtube:hover {
+  color: red;
+  font-size: 30px;
+}
+.page7 p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  color: black;
+}
+.page7 .tel {
+  margin-left: 2%;
+}
+.page7 .tel a {
+  text-decoration: none;
+}
+.page7 .contact {
+  color: white;
+}
+
+.page7 h6 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+.page7 img {
+  height: 300px;
+  width: 80%;
+  margin-top: 20px;
+}
+.page7 .la-map-marked-alt {
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 20px;
+  color: white;
+}
+.page7 .la-map-marked-alt:hover {
+  color: red;
+}
+
+.page7 .location {
+  color: white;
+}
+.page7 .email a {
+  color: rgb(12, 12, 255);
+}
+
+.card-body {
+  height: 50%;
+}
+
+.about-page2 {
+  margin-top: 200px;
+}
+
+.about-page2 .card {
+  border: none;
+}
+.about-page2 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+}
+.about-page2 h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 33px;
+}
+
+.about-page3 {
+  margin-top: 150px;
+}
+.about-page3 h1 {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+.about-page3 .card-body .card .la-tv {
+  width: 30%;
+  height: 100px;
+}
+
+.about-page3 .icons {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin-left: 2%;
+}
+.about-page3 .wifi {
+  width: 180px;
+}
+.about-page3 .wifi .la-wifi {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  color: #7225E7;
+}
+.about-page3 .food {
+  margin-left: 2%;
+  width: 180px;
+}
+.about-page3 .food .la-utensils {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+.about-page3 .beauty {
+  margin-left: 2%;
+  width: 180px;
+}
+.about-page3 .beauty .la-spa {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+.about-page3 .fitness {
+  margin-left: 2%;
+  width: 180px;
+}
+.about-page3 .fitness .la-bicycle {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+.about-page3 .coffee {
+  margin-left: 2%;
+  width: 180px;
+}
+.about-page3 .coffee .la-coffee {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+.about-page3 .dog {
+  margin-left: 4%;
+  width: 180px;
+}
+.about-page3 .dog .la-dog {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+
+.about-page3 .screen {
+  margin-left: 24%;
+  width: 180px;
+}
+.about-page3 .screen .la-desktop {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+.about-page3 .thermometr {
+  margin-left: 4%;
+  width: 180px;
+}
+.about-page3 .thermometr .la-thermometer-empty {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+.about-page3 .swim {
+  margin-left: 4%;
+  width: 180px;
+}
+.about-page3 .swim .la-swimming-pool {
+  width: 200px;
+  height: 100px;
+  font-size: 80px;
+  margin-left: 8%;
+  color: #7225E7;
+}
+
+.about-page3 .la-wifi:hover {
+  color: orange;
+}
+.about-page3 .la-utensils:hover {
+  color: red;
+}
+.about-page3 .la-spa:hover {
+  color: orange;
+}
+
+.about-page3 .la-bicycle:hover {
+  color: rgba(74, 65, 65, 0.551);
+}
+.about-page3 .la-coffee:hover {
+  color: #973B1D;
+}
+.about-page3 .la-dog:hover {
+  color: rgb(165, 6, 104);
+}
+
+.about-page3 .la-desktop:hover {
+  color: #0d7444;
+}
+.about-page3 .la-thermometer-empty:hover {
+  color: red;
+}
+.about-page3 .la-swimming-pool:hover {
+  color: #1898B5;
+}
+
+.about-page4 {
+  margin-top: 200px;
+  padding: 100px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-page4 h5 {
+  color: white;
+}
+.about-page4 .icon {
+  background: white;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.about-page4 .icon:hover {
+  transform: translateY(5%);
+}
+
+.about-page4 .la-facebook:hover {
+  color: rgb(12, 12, 255);
+  font-size: 30px;
+}
+.about-page4 .la-twitter:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.about-page4 .la-instagram:hover {
+  color: #AC3FC8;
+  font-size: 30px;
+}
+
+.about-page4 .la-whatsapp:hover {
+  color: rgba(44, 194, 44, 0.836);
+  font-size: 30px;
+}
+.about-page4 .la-linkedin-in:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.about-page4 .la-google-play:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+
+.about-page4 .la-youtube:hover {
+  color: red;
+  font-size: 30px;
+}
+.about-page4 p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  color: black;
+}
+.about-page4 .tel {
+  margin-left: 2%;
+}
+.about-page4 .tel a {
+  text-decoration: none;
+}
+.about-page4 .contact {
+  color: white;
+}
+
+.about-page4 h6 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+.about-page4 .la-map-marked-alt {
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 20px;
+  color: white;
+}
+.about-page4 .la-map-marked-alt:hover {
+  color: red;
+}
+
+.about-page4 .location {
+  color: white;
+}
+.about-page4 .email a {
+  color: rgb(12, 12, 255);
+}
+
+.rooms-page2 {
+  margin-top: 200px;
+}
+.rooms-page2 .card {
+  border: none;
+}
+.rooms-page2 .card-header {
+  color: #F0C382;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+.rooms-page2 .card-text {
+  color: #252525;
+}
+
+.rooms-page3 {
+  margin-top: 200px;
+}
+.rooms-page3 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.rooms-page3 .card:hover {
+  font-size: larger;
+  background-color: #7225E7;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(171, 39, 27, 0.759) !important;
+}
+
+.rooms-page4 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.rooms-page4 .card:hover {
+  font-size: larger;
+  background-color: #7225E7;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(171, 39, 27, 0.759) !important;
+}
+
+.rooms-page5 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.rooms-page5 .card:hover {
+  font-size: larger;
+  background-color: #7225E7;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(171, 39, 27, 0.759) !important;
+}
+
+.rooms-page6 .card {
+  border: 1px solid rgba(206, 175, 175, 0.516) !important;
+  width: 30% !important;
+  margin: 8px !important;
+}
+
+.rooms-page6 .card:hover {
+  font-size: larger;
+  background-color: #7225E7;
+  color: white !important;
+  opacity: 0.8 !important;
+  border: 1px solid rgba(171, 39, 27, 0.759) !important;
+}
+
+.rooms-page7 {
+  margin-top: 200px;
+  padding: 100px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rooms-page7 h5 {
+  color: white;
+}
+.rooms-page7 .icon {
+  background: white;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.rooms-page7 .icon:hover {
+  transform: translateY(5%);
+}
+
+.rooms-page7 .la-facebook:hover {
+  color: rgb(12, 12, 255);
+  font-size: 30px;
+}
+.rooms-page7 .la-twitter:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.rooms-page7 .la-instagram:hover {
+  color: #AC3FC8;
+  font-size: 30px;
+}
+
+.rooms-page7 .la-whatsapp:hover {
+  color: rgba(44, 194, 44, 0.836);
+  font-size: 30px;
+}
+.rooms-page7 .la-linkedin-in:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.rooms-page7 .la-google-play:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+
+.rooms-page7 .la-youtube:hover {
+  color: red;
+  font-size: 30px;
+}
+.rooms-page7 p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  color: black;
+}
+.rooms-page7 .tel {
+  margin-left: 2%;
+}
+.rooms-page7 .tel a {
+  text-decoration: none;
+}
+.rooms-page7 .contact {
+  color: white;
+}
+
+.rooms-page7 h6 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+.rooms-page7 .la-map-marked-alt {
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 20px;
+  color: white;
+}
+.rooms-page7 .la-map-marked-alt:hover {
+  color: red;
+}
+
+.rooms-page7 .location {
+  color: white;
+}
+.rooms-page7 .email a {
+  color: rgb(12, 12, 255);
+}
+
+.gallery-page2 {
+  margin-top: 100px;
+}
+.gallery-page2 .col-md-8 {
+  margin-top: 200px;
+}
+.gallery-page2 .col-md-4 {
+  margin-top: 400px;
+}
+
+.gallery-page3 {
+  margin-top: 100px;
+}
+.gallery-page3 .col-md-8 {
+  margin-top: 200px;
+}
+.gallery-page3 .col-md-4 {
+  margin-top: 400px;
+}
+
+.gallery-page4 {
+  margin-top: 100px;
+}
+.gallery-page4 .col-md-8 {
+  margin-top: 200px;
+}
+.gallery-page4 .col-md-4 {
+  margin-top: 400px;
+}
+
+.gallery-page2 img:hover {
+  box-shadow: 8px 8px 8px 8px rgb(147, 94, 203);
+}
+
+.gallery-page3 img:hover {
+  box-shadow: 8px 8px 8px 8px rgb(94, 194, 203);
+}
+
+.gallery-page4 img:hover {
+  box-shadow: 8px 8px 8px 8px rgb(213, 162, 59);
+}
+
+.gallery-page5 {
+  margin-top: 200px;
+  padding: 100px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-page5 h5 {
+  color: white;
+}
+.gallery-page5 .icon {
+  background: white;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.gallery-page5 .icon:hover {
+  transform: translateY(5%);
+}
+
+.gallery-page5 .la-facebook:hover {
+  color: rgb(12, 12, 255);
+  font-size: 30px;
+}
+.gallery-page5 .la-twitter:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.gallery-page5 .la-instagram:hover {
+  color: #AC3FC8;
+  font-size: 30px;
+}
+
+.gallery-page5 .la-whatsapp:hover {
+  color: rgba(44, 194, 44, 0.836);
+  font-size: 30px;
+}
+.gallery-page5 .la-linkedin-in:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.gallery-page5 .la-google-play:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+
+.gallery-page5 .la-youtube:hover {
+  color: red;
+  font-size: 30px;
+}
+.gallery-page5 p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  color: black;
+}
+.gallery-page5 .tel {
+  margin-left: 2%;
+}
+.gallery-page5 .tel a {
+  text-decoration: none;
+}
+.gallery-page5 .contact {
+  color: white;
+}
+
+.gallery-page5 h6 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+.gallery-page5 .la-map-marked-alt {
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 20px;
+  color: white;
+}
+.gallery-page5 .la-map-marked-alt:hover {
+  color: red;
+}
+
+.gallery-page5 .location {
+  color: white;
+}
+.gallery-page5 .email a {
+  color: rgb(12, 12, 255);
+}
+
+.restaurant-page2 {
+  margin-top: 200px;
+  text-align: center;
+}
+.restaurant-page2 .card {
+  background-color: #D6CEB2;
+  width: 100%;
+  height: 200px;
+}
+
+.card-body {
+  padding-top: 40px;
+}
+
+.restaurant-page3 {
+  margin-top: 200px;
+}
+
+.restaurant-page3 .card:hover {
+  background-color: orange;
+  opacity: 0.9;
+}
+
+.restaurant-page4 .card:hover {
+  background-color: orange;
+  opacity: 0.9;
+}
+
+.restaurant-page5 .card:hover {
+  background-color: orange;
+  opacity: 0.9;
+}
+
+.restaurant-page6 {
+  margin-top: 200px;
+  padding: 100px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-page6 h5 {
+  color: white;
+}
+.restaurant-page6 .icon {
+  background: white;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.restaurant-page6 .icon:hover {
+  transform: translateY(5%);
+}
+
+.restaurant-page6 .la-facebook:hover {
+  color: rgb(12, 12, 255);
+  font-size: 30px;
+}
+.restaurant-page6 .la-twitter:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.restaurant-page6 .la-instagram:hover {
+  color: #AC3FC8;
+  font-size: 30px;
+}
+
+.restaurant-page6 .la-whatsapp:hover {
+  color: rgba(44, 194, 44, 0.836);
+  font-size: 30px;
+}
+.restaurant-page6 .la-linkedin-in:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.restaurant-page6 .la-google-play:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+
+.restaurant-page6 .la-youtube:hover {
+  color: red;
+  font-size: 30px;
+}
+.restaurant-page6 p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  color: black;
+}
+.restaurant-page6 .tel {
+  margin-left: 2%;
+}
+.restaurant-page6 .tel a {
+  text-decoration: none;
+}
+.restaurant-page6 .contact {
+  color: white;
+}
+
+.restaurant-page6 h6 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+.restaurant-page6 .la-map-marked-alt {
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 20px;
+  color: white;
+}
+.restaurant-page6 .la-map-marked-alt:hover {
+  color: red;
+}
+
+.restaurant-page6 .location {
+  color: white;
+}
+.restaurant-page6 .email a {
+  color: rgb(12, 12, 255);
 }
