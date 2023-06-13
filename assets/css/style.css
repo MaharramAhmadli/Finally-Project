@@ -154,7 +154,7 @@ body {
 }
 
 .page6 .card {
-  height: 500px;
+  height: 550px;
   background-color: #252525;
 }
 .page6 .card h6 {
@@ -1045,4 +1045,91 @@ body {
 }
 .restaurant-page6 .email a {
   color: rgb(12, 12, 255);
+}
+
+.contact-page1 {
+  margin-top: 100px;
+}
+.contact-page1 .card-text {
+  font-size: 17px;
+  margin-top: 30px;
+  color: rgb(132, 39, 132);
+}
+.contact-page1 .btn {
+  background-color: white;
+  color: black;
+  padding: 17px;
+  border-radius: 40px;
+  width: 200px;
+  margin-top: 30px;
+}
+.contact-page1 .btn:hover {
+  background-color: rgb(12, 12, 255);
+  color: white;
+}
+
+.contact-page1 {
+  margin-top: 200px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-page1 h5 {
+  color: white;
+}
+.contact-page1 .icon {
+  background: white;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.contact-page1 .icon:hover {
+  transform: translateY(5%);
+}
+
+.contact-page1 .la-facebook:hover {
+  color: rgb(12, 12, 255);
+  font-size: 30px;
+}
+.contact-page1 .la-twitter:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.contact-page1 .la-instagram:hover {
+  color: #AC3FC8;
+  font-size: 30px;
+}
+
+.contact-page1 .la-whatsapp:hover {
+  color: rgba(44, 194, 44, 0.836);
+  font-size: 30px;
+}
+.contact-page1 .la-linkedin-in:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+.contact-page1 .la-google-play:hover {
+  color: rgb(53, 53, 237);
+  font-size: 30px;
+}
+
+.contact-page1 .la-youtube:hover {
+  color: red;
+  font-size: 30px;
+}
+.contact-page1 .contact {
+  margin-top: 30px;
+}
+
+.contact-page2 {
+  margin-top: 100px;
 }

@@ -18,6 +18,11 @@
     background: $color-2;
 }
 
+// .nav-item{
+//     scroll-behavior: smooth;
+//     position: fixed;
+// }
+
 body {
     scroll-behavior: smooth;
 }
@@ -232,7 +237,7 @@ body {
 
 .page6 {
     .card {
-        height: 500px;
+        height: 550px;
         background-color: $color-9;
 
         h6 {
@@ -1356,40 +1361,41 @@ body {
 
 //restaurant
 
-.restaurant-page2{
+.restaurant-page2 {
     margin-top: 200px;
     text-align: center;
-    .card{
-    background-color: $color-21;
-    width: 100%;
-    height: 200px;
+
+    .card {
+        background-color: $color-21;
+        width: 100%;
+        height: 200px;
     }
 }
 
-.card-body{
+.card-body {
     padding-top: 40px;
 }
 
-.restaurant-page3{
+.restaurant-page3 {
     margin-top: 200px;
 }
 
-.restaurant-page3{
-    .card:hover{
+.restaurant-page3 {
+    .card:hover {
         background-color: $color-7;
         opacity: 0.9;
     }
 }
 
-.restaurant-page4{
-    .card:hover{
+.restaurant-page4 {
+    .card:hover {
         background-color: $color-7;
         opacity: 0.9;
     }
 }
 
-.restaurant-page5{
-    .card:hover{
+.restaurant-page5 {
+    .card:hover {
         background-color: $color-7;
         opacity: 0.9;
     }
@@ -1531,3 +1537,128 @@ body {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//contact
+
+.contact-page1 {
+    margin-top: 100px;
+
+    .card-text {
+        font-size: 17px;
+        margin-top: 30px;
+        color: $color-8;
+    }
+
+    .btn {
+        background-color: $primary-color-hover;
+        color: $primary-color;
+        padding: 17px;
+        border-radius: 40px;
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .btn:hover {
+        background-color: $color-4;
+        color: $primary-color-hover;
+    }
+}
+
+
+.contact-page1 {
+    h5 {
+        color: $primary-color-hover;
+    }
+
+    margin-top: 200px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+        // position: relative;
+        background: $primary-color-hover;
+        border-radius: 50%;
+        padding: 9px;
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        display: inline-block;
+        box-shadow: 0 10px 10px rgba(0, 0, 0.7, 0.5);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    }
+}
+
+.contact-page1 {
+    .icon:hover {
+        transform: translateY(5%);
+    }
+}
+
+
+.contact-page1 {
+    .la-facebook:hover {
+        color: $color-4;
+        font-size: 30px;
+    }
+
+    .la-twitter:hover {
+        color: $color-13;
+        font-size: 30px;
+    }
+
+    .la-instagram:hover {
+        color: $color-14;
+        font-size: 30px;
+    }
+}
+
+.contact-page1 {
+    .la-whatsapp:hover {
+        color: $color-15;
+        font-size: 30px;
+    }
+
+    .la-linkedin-in:hover {
+        color: $color-13;
+        font-size: 30px;
+    }
+
+    .la-google-play:hover {
+        color: $color-13;
+        font-size: 30px;
+    }
+}
+
+.contact-page1 {
+    .la-youtube:hover {
+        color: $color-12;
+        font-size: 30px;
+    }
+
+    .contact {
+        margin-top: 30px;
+    }
+}
+
+
+
+.contact-page2{
+    margin-top: 100px;
+}
