@@ -32,7 +32,7 @@ body {
 }
 
 .container-fluid {
-  margin-left: 35%;
+  margin-left: 25%;
   padding-left: 7%;
 }
 
@@ -71,115 +71,131 @@ body {
   display: block;
 }
 
+.menu-icon .like {
+  color: red;
+  font-size: 20px;
+}
+.menu-icon .add {
+  color: #F0C382;
+  font-size: 20px;
+}
+
+.menu-icon .like:hover {
+  font-size: 30px;
+}
+.menu-icon .add:hover {
+  font-size: 30px;
+}
+
 .card-body {
   height: 50%;
 }
 
-.page2 {
+.home-page2 {
   margin-top: 200px;
 }
 
-.page2 .card {
+.home-page2 .card {
   border: none;
 }
-.page2 h1 {
+.home-page2 h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
 }
-.page2 h4 {
+.home-page2 h4 {
   font-family: "Bebas Neue", sans-serif;
   font-family: "Cormorant Garamond", serif;
   font-family: "Edu NSW ACT Foundation", cursive;
   font-size: 33px;
 }
 
-.page3 {
+.home-foe-category-3 {
   margin-top: 200px;
 }
-.page3 .card {
+.home-foe-category-3 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
   width: 30% !important;
   margin: 8px !important;
 }
 
-.page3 .card:hover {
+.home-foe-category-3 .card:hover {
   background-color: #09218a;
   color: white !important;
   opacity: 0.8 !important;
   border: 1px solid rgba(41, 27, 171, 0.759) !important;
 }
 
-.page4 .card {
+.home-foe-category-4 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
   width: 30% !important;
   margin: 8px !important;
 }
 
-.page4 .card:hover {
+.home-foe-category-4 .card:hover {
   background-color: #09218a;
   color: white !important;
   opacity: 0.8 !important;
   border: 1px solid rgba(41, 27, 171, 0.759) !important;
 }
 
-.page5 .card {
+.home-foe-category-5 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
   width: 30% !important;
   margin: 8px !important;
 }
 
-.page5 .card:hover {
+.home-foe-category-5 .card:hover {
   background-color: #09218a;
   color: white !important;
   opacity: 0.8 !important;
   border: 1px solid rgba(41, 27, 171, 0.759) !important;
 }
 
-.page6 {
+.home-discovery6 {
   height: 800px;
   margin-top: 200px;
   background-color: #252525;
 }
-.page6 .card {
+.home-discovery6 .card {
   margin-top: 80px;
 }
-.page6 h4 {
+.home-discovery6 h4 {
   color: white;
   margin-top: 30px;
 }
-.page6 span {
+.home-discovery6 span {
   color: white;
   font-family: "Bebas Neue", sans-serif;
   font-family: "Cormorant Garamond", serif;
 }
 
-.page6 .card {
+.home-discovery6 .card {
   height: 550px;
   background-color: #252525;
 }
-.page6 .card h6 {
+.home-discovery6 .card h6 {
   text-align: center;
   margin-top: 40px;
   color: white;
 }
-.page6 .card p {
+.home-discovery6 .card p {
   text-align: center;
   color: white;
 }
-.page6 .card h5 {
+.home-discovery6 .card h5 {
   text-align: center;
   color: white;
 }
 
-.page6 .card img {
+.home-discovery6 .card img {
   margin-top: 30px;
 }
-.page6 .card .first {
+.home-discovery6 .card .first {
   margin-top: 65px;
   font-family: "Cormorant Garamond", serif;
   font-family: "Edu NSW ACT Foundation", cursive;
 }
-.page6 .card h3 {
+.home-discovery6 .card h3 {
   color: white;
   text-align: center;
   margin-top: 26px;
@@ -188,33 +204,33 @@ body {
   font-family: "Great Vibes", cursive;
   font-family: "Permanent Marker", cursive;
 }
-.page6 .card p {
+.home-discovery6 .card p {
   font-size: 9px;
 }
 
-.page6 .card .las {
+.home-discovery6 .card .las {
   color: white;
   text-align: center;
   margin-top: 13px;
 }
-.page6 .card .third {
+.home-discovery6 .card .third {
   font-size: 24px;
   text-align: center;
 }
-.page6 .card .card-title-a {
+.home-discovery6 .card .card-title-a {
   font-size: 10px;
 }
-.page6 .card h4 {
+.home-discovery6 .card h4 {
   text-align: center;
 }
 
-.page6 .card {
+.home-discovery6 .card {
   border: 0.1px solid rgba(255, 255, 255, 0.097);
 }
-.page6 .card .card-title-b {
+.home-discovery6 .card .card-title-b {
   margin-top: 22px;
 }
-.page6 .card h1 {
+.home-discovery6 .card h1 {
   color: white;
   text-align: center;
   margin-top: 40px;
@@ -224,17 +240,17 @@ body {
   font-family: "Great Vibes", cursive;
   font-family: "Permanent Marker", cursive;
 }
-.page6 .card .card-title-c {
+.home-discovery6 .card .card-title-c {
   margin-top: 14px;
 }
 
-.page6 .card:hover {
+.home-discovery6 .card:hover {
   color: rgba(74, 65, 65, 0.551);
   opacity: 0.9;
   border: 1px solid white;
 }
 
-.page7 {
+.home-footer {
   margin-top: 200px;
   padding: 100px;
   background-color: #252525;
@@ -242,10 +258,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.page7 h5 {
+.home-footer h5 {
   color: white;
 }
-.page7 .icon {
+.home-footer .icon {
   background: white;
   border-radius: 50%;
   padding: 9px;
@@ -259,100 +275,104 @@ body {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.page7 .icon:hover {
+.home-footer .icon:hover {
   transform: translateY(5%);
 }
 
-.page7 .la-facebook:hover {
+.home-footer .la-facebook:hover {
   color: rgb(12, 12, 255);
   font-size: 30px;
 }
-.page7 .la-twitter:hover {
+.home-footer .la-twitter:hover {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
-.page7 .la-instagram:hover {
+.home-footer .la-instagram:hover {
   color: #AC3FC8;
   font-size: 30px;
 }
 
-.page7 .la-whatsapp:hover {
+.home-footer .la-whatsapp:hover {
   color: rgba(44, 194, 44, 0.836);
   font-size: 30px;
 }
-.page7 .la-linkedin-in:hover {
+.home-footer .la-linkedin-in:hover {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
-.page7 .la-google-play:hover {
+.home-footer .la-google-play:hover {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
 
-.page7 .la-youtube:hover {
+.home-footer .la-youtube:hover {
   color: red;
   font-size: 30px;
 }
-.page7 p {
+.home-footer p {
   color: white;
   display: flex;
   justify-content: flex-start;
   margin-top: 40px;
   color: black;
 }
-.page7 .tel {
+.home-footer .tel {
   margin-left: 2%;
 }
-.page7 .tel a {
+.home-footer .tel a {
   text-decoration: none;
 }
-.page7 .contact {
+.home-footer .contact {
   color: white;
 }
 
-.page7 h6 {
+.home-footer h6 {
   margin-top: 20px;
   font-size: 30px;
   color: white;
 }
-.page7 img {
+.home-footer img {
   height: 300px;
   width: 80%;
   margin-top: 20px;
 }
-.page7 .la-map-marked-alt {
+.home-footer .la-map-marked-alt {
   padding-left: 5%;
   padding-top: 1%;
   font-size: 20px;
   color: white;
 }
-.page7 .la-map-marked-alt:hover {
+.home-footer .la-map-marked-alt:hover {
   color: red;
 }
 
-.page7 .location {
+.home-footer .location {
   color: white;
 }
-.page7 .email a {
+.home-footer .email a {
   color: rgb(12, 12, 255);
+}
+
+.carousel .card {
+  margin-top: 100px;
 }
 
 .card-body {
   height: 50%;
 }
 
-.about-page2 {
+.about-slider {
   margin-top: 200px;
 }
 
-.about-page2 .card {
+.about-slider .card {
   border: none;
 }
-.about-page2 h1 {
+.about-slider h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
 }
-.about-page2 h4 {
+.about-slider h4 {
   font-family: "Bebas Neue", sans-serif;
   font-family: "Cormorant Garamond", serif;
   font-family: "Edu NSW ACT Foundation", cursive;
@@ -371,70 +391,70 @@ body {
   height: 100px;
 }
 
-.about-page3 .icons {
+.about-services .icons {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
   margin-left: 2%;
 }
-.about-page3 .wifi {
+.about-services .wifi {
   width: 180px;
 }
-.about-page3 .wifi .la-wifi {
+.about-services .wifi .la-wifi {
   width: 200px;
   height: 100px;
   font-size: 80px;
   color: #7225E7;
 }
-.about-page3 .food {
+.about-services .food {
   margin-left: 2%;
   width: 180px;
 }
-.about-page3 .food .la-utensils {
+.about-services .food .la-utensils {
   width: 200px;
   height: 100px;
   font-size: 80px;
   margin-left: 8%;
   color: #7225E7;
 }
-.about-page3 .beauty {
+.about-services .beauty {
   margin-left: 2%;
   width: 180px;
 }
-.about-page3 .beauty .la-spa {
+.about-services .beauty .la-spa {
   width: 200px;
   height: 100px;
   font-size: 80px;
   margin-left: 8%;
   color: #7225E7;
 }
-.about-page3 .fitness {
+.about-services .fitness {
   margin-left: 2%;
   width: 180px;
 }
-.about-page3 .fitness .la-bicycle {
+.about-services .fitness .la-bicycle {
   width: 200px;
   height: 100px;
   font-size: 80px;
   margin-left: 8%;
   color: #7225E7;
 }
-.about-page3 .coffee {
+.about-services .coffee {
   margin-left: 2%;
   width: 180px;
 }
-.about-page3 .coffee .la-coffee {
+.about-services .coffee .la-coffee {
   width: 200px;
   height: 100px;
   font-size: 80px;
   margin-left: 8%;
   color: #7225E7;
 }
-.about-page3 .dog {
+.about-services .dog {
   margin-left: 4%;
   width: 180px;
 }
-.about-page3 .dog .la-dog {
+.about-services .dog .la-dog {
   width: 200px;
   height: 100px;
   font-size: 80px;
@@ -442,33 +462,33 @@ body {
   color: #7225E7;
 }
 
-.about-page3 .screen {
+.about-services .screen {
   margin-left: 24%;
   width: 180px;
 }
-.about-page3 .screen .la-desktop {
+.about-services .screen .la-desktop {
   width: 200px;
   height: 100px;
   font-size: 80px;
   margin-left: 8%;
   color: #7225E7;
 }
-.about-page3 .thermometr {
+.about-services .thermometr {
   margin-left: 4%;
   width: 180px;
 }
-.about-page3 .thermometr .la-thermometer-empty {
+.about-services .thermometr .la-thermometer-empty {
   width: 200px;
   height: 100px;
   font-size: 80px;
   margin-left: 8%;
   color: #7225E7;
 }
-.about-page3 .swim {
+.about-services .swim {
   margin-left: 4%;
   width: 180px;
 }
-.about-page3 .swim .la-swimming-pool {
+.about-services .swim .la-swimming-pool {
   width: 200px;
   height: 100px;
   font-size: 80px;
@@ -476,37 +496,37 @@ body {
   color: #7225E7;
 }
 
-.about-page3 .la-wifi:hover {
+.about-services .la-wifi:hover {
   color: orange;
 }
-.about-page3 .la-utensils:hover {
+.about-services .la-utensils:hover {
   color: red;
 }
-.about-page3 .la-spa:hover {
+.about-services .la-spa:hover {
   color: orange;
 }
 
-.about-page3 .la-bicycle:hover {
+.about-services .la-bicycle:hover {
   color: rgba(74, 65, 65, 0.551);
 }
-.about-page3 .la-coffee:hover {
+.about-services .la-coffee:hover {
   color: #973B1D;
 }
-.about-page3 .la-dog:hover {
+.about-services .la-dog:hover {
   color: rgb(165, 6, 104);
 }
 
-.about-page3 .la-desktop:hover {
+.about-services .la-desktop:hover {
   color: #0d7444;
 }
-.about-page3 .la-thermometer-empty:hover {
+.about-services .la-thermometer-empty:hover {
   color: red;
 }
-.about-page3 .la-swimming-pool:hover {
+.about-services .la-swimming-pool:hover {
   color: #1898B5;
 }
 
-.about-page4 {
+.about-services-2 {
   margin-top: 200px;
   padding: 100px;
   background-color: #252525;
@@ -514,10 +534,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-.about-page4 h5 {
+.about-services-2 h5 {
   color: white;
 }
-.about-page4 .icon {
+.about-services-2 .icon {
   background: white;
   border-radius: 50%;
   padding: 9px;
@@ -531,76 +551,76 @@ body {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.about-page4 .icon:hover {
+.about-services-2 .icon:hover {
   transform: translateY(5%);
 }
 
-.about-page4 .la-facebook:hover {
+.about-services-2 .la-facebook:hover {
   color: rgb(12, 12, 255);
   font-size: 30px;
 }
-.about-page4 .la-twitter:hover {
+.about-services-2 .la-twitter:hover {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
-.about-page4 .la-instagram:hover {
+.about-services-2 .la-instagram:hover {
   color: #AC3FC8;
   font-size: 30px;
 }
 
-.about-page4 .la-whatsapp:hover {
+.about-services-2 .la-whatsapp:hover {
   color: rgba(44, 194, 44, 0.836);
   font-size: 30px;
 }
-.about-page4 .la-linkedin-in:hover {
+.about-services-2 .la-linkedin-in:hover {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
-.about-page4 .la-google-play:hover {
+.about-services-2 .la-google-play:hover {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
 
-.about-page4 .la-youtube:hover {
+.about-services-2 .la-youtube:hover {
   color: red;
   font-size: 30px;
 }
-.about-page4 p {
+.about-services-2 p {
   color: white;
   display: flex;
   justify-content: flex-start;
   margin-top: 40px;
   color: black;
 }
-.about-page4 .tel {
+.about-services-2 .tel {
   margin-left: 2%;
 }
-.about-page4 .tel a {
+.about-services-2 .tel a {
   text-decoration: none;
 }
-.about-page4 .contact {
+.about-services-2 .contact {
   color: white;
 }
 
-.about-page4 h6 {
+.about-services-2 h6 {
   margin-top: 20px;
   font-size: 30px;
   color: white;
 }
-.about-page4 .la-map-marked-alt {
+.about-services-2 .la-map-marked-alt {
   padding-left: 5%;
   padding-top: 1%;
   font-size: 20px;
   color: white;
 }
-.about-page4 .la-map-marked-alt:hover {
+.about-services-2 .la-map-marked-alt:hover {
   color: red;
 }
 
-.about-page4 .location {
+.about-services-2 .location {
   color: white;
 }
-.about-page4 .email a {
+.about-services-2 .email a {
   color: rgb(12, 12, 255);
 }
 
@@ -1131,5 +1151,28 @@ body {
 }
 
 .contact-page2 {
-  margin-top: 100px;
+  margin-top: 200px;
+}
+
+.statistics {
+  background-color: #0d7444;
+  height: 200px;
+  width: 100%;
+}
+.statistics .title {
+  color: black;
+}
+.statistics .card {
+  background-color: #0d7444;
+  height: 190px;
+}
+.statistics .card .branch {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.statistics .sm-font {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
