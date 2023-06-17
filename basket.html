@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/basket.css">
+<link rel="stylesheet" href="assets/css/demo.css">
+
+</head>
+<body>
+
+
+    <header class="intro">
+        <!-- <h1>Feature-Rich Shopping Cart Example</h1>
+        <p>An animated shopping cart with products card.</p> -->
+       
+        <div class="action">
+        <a href="index.html" title="Back to download and tutorial page" class="btn back">Geriyə qayıt</a>
+        </div>
+        </header>
+  
+
+   
+   
+      <style>
+          .navbar{
+              height: 56px;
+              line-height: 56px;
+              padding: 0 26px;
+          }
+      
+      </style>
+  </head>
+  <body>
+
+  
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+<nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+    </div>
+</nav>
+
+
+<!-- Main -->
+<div class="container">
+    <div class="row">
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0=">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 500</p>
+    <a href="#" data-name="Otaq" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.headforpoints.com/wp-content/uploads/2017/05/Small-Luxury-Hotels-2.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1700</p>
+    <a href="#" data-name="Otaq" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://hoteldesigns.net/wp-content/uploads/2020/08/CGI-Interiors_Page_09.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1220</p>
+    <a href="#" data-name="Nəfər" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://i.insider.com/5db73ba8045a3121d76be773?width=1000&format=jpeg&auto=webp" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe Dizaynı</h4>
+    <p class="card-text">Price: $ 2400</p>
+    <a href="#" data-name="Nəfər" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://previews.123rf.com/images/mtellioglu/mtellioglu1901/mtellioglu190100060/116150160-3d-render-luxury-hotel-room.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: 1050</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+</div>
+
+
+<div class="col col-md-4">
+  <div class="card" style="width: 20rem;">
+<img class="card-img-top" src="https://quark-studio.com/wp-content/uploads/2019/07/D-Suites-1.jpg" alt="Card image cap">
+<div class="card-block">
+<h4 class="card-title">Foe dizaynı</h4>
+<p class="card-text">Price: $3500</p>
+<a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+</div>
+</div>
+</div>
+
+<div class="col col-md-4">
+  <div class="card" style="width: 20rem;">
+<img class="card-img-top" src="https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0=" alt="Card image cap">
+<div class="card-block">
+<h4 class="card-title">Lemon</h4>
+<p class="card-text">Price: $ 1100</p>
+<a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="col col-md-4">
+  <div class="card" style="width: 20rem;">
+<img class="card-img-top" src="https://www.headforpoints.com/wp-content/uploads/2017/05/Small-Luxury-Hotels-2.jpg" alt="Card image cap">
+<div class="card-block">
+<h4 class="card-title">Foe dizaynı</h4>
+<p class="card-text">Price: $3500</p>
+<a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="col col-md-4">
+  <div class="card" style="width: 20rem;">
+<img class="card-img-top" src="https://www.tripsavvy.com/thmb/PBXPKYgTWnbYh6IBZ6FBu0RCi7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/PMC_3922re2-7a204d0f28cc4d2abacf951df89d19d5.jpg" alt="Card image cap">
+<div class="card-block">
+<h4 class="card-title">Foe dizaynı</h4>
+<p class="card-text">Price: $ 2400</p>
+<a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="col col-md-4">
+  <div class="card" style="width: 20rem;">
+<img class="card-img-top" src="https://www.lux-review.com/wp-content/uploads/2020/04/6-Factors-Luxury-Hotels-Have-in-Common-and-Why.jpg">
+<div class="card-block">
+<h4 class="card-title">Foe dizaynı</h4>
+<p class="card-text">Price: $1900</p>
+<a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+</div>
+</div>
+</div>
+
+
+<div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://i.insider.com/5b50aa5001180c3c008b46d2?width=700" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0=" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.headforpoints.com/wp-content/uploads/2017/05/Small-Luxury-Hotels-2.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://hoteldesigns.net/wp-content/uploads/2020/08/CGI-Interiors_Page_09.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.lux-review.com/wp-content/uploads/2020/04/6-Factors-Luxury-Hotels-Have-in-Common-and-Why.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.architectureartdesigns.com/wp-content/uploads/2021/02/pasted-image-0.png" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.tripsavvy.com/thmb/PBXPKYgTWnbYh6IBZ6FBu0RCi7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/PMC_3922re2-7a204d0f28cc4d2abacf951df89d19d5.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0=">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.headforpoints.com/wp-content/uploads/2017/05/Small-Luxury-Hotels-2.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://hoteldesigns.net/wp-content/uploads/2020/08/CGI-Interiors_Page_09.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.tripsavvy.com/thmb/PBXPKYgTWnbYh6IBZ6FBu0RCi7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/PMC_3922re2-7a204d0f28cc4d2abacf951df89d19d5.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.architectureartdesigns.com/wp-content/uploads/2021/02/pasted-image-0.png">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfər" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://www.travelandleisure.com/thmb/OiDnPGo3k9QLRT9__TPhFZcr7PU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rosewood-carlyle-presidential-suite-LUXESUITE0122-0046808a88924e57922d78c7f1d9ca60.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Foe dizaynı</h4>
+    <p class="card-text">Price: $ 1300</p>
+    <a href="#" data-name="Nəfəry" data-price="5" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+  </div>
+</div>
+      </div>
+    </div>
+</div>
+
+  
+ <!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script  src="assets/js/basket.js"></script>
+     
+  </body>
+</html>

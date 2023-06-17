@@ -14,6 +14,7 @@
 
 body {
   scroll-behavior: smooth;
+  background-image: linear-gradient(to bottom right, #d1f1ff, #e5ffd1);
 }
 
 ::-moz-selection {
@@ -250,109 +251,6 @@ body {
   border: 1px solid white;
 }
 
-.home-footer {
-  margin-top: 200px;
-  padding: 100px;
-  background-color: #252525;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.home-footer h5 {
-  color: white;
-}
-.home-footer .icon {
-  background: white;
-  border-radius: 50%;
-  padding: 9px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  display: inline-block;
-  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.home-footer .icon:hover {
-  transform: translateY(5%);
-}
-
-.home-footer .la-facebook:hover {
-  color: rgb(12, 12, 255);
-  font-size: 30px;
-}
-.home-footer .la-twitter:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.home-footer .la-instagram:hover {
-  color: #AC3FC8;
-  font-size: 30px;
-}
-
-.home-footer .la-whatsapp:hover {
-  color: rgba(44, 194, 44, 0.836);
-  font-size: 30px;
-}
-.home-footer .la-linkedin-in:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.home-footer .la-google-play:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-
-.home-footer .la-youtube:hover {
-  color: red;
-  font-size: 30px;
-}
-.home-footer p {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 40px;
-  color: black;
-}
-.home-footer .tel {
-  margin-left: 2%;
-}
-.home-footer .tel a {
-  text-decoration: none;
-}
-.home-footer .contact {
-  color: white;
-}
-
-.home-footer h6 {
-  margin-top: 20px;
-  font-size: 30px;
-  color: white;
-}
-.home-footer img {
-  height: 300px;
-  width: 80%;
-  margin-top: 20px;
-}
-.home-footer .la-map-marked-alt {
-  padding-left: 5%;
-  padding-top: 1%;
-  font-size: 20px;
-  color: white;
-}
-.home-footer .la-map-marked-alt:hover {
-  color: red;
-}
-
-.home-footer .location {
-  color: white;
-}
-.home-footer .email a {
-  color: rgb(12, 12, 255);
-}
-
 .carousel .card {
   margin-top: 100px;
 }
@@ -524,104 +422,6 @@ body {
 }
 .about-services .la-swimming-pool:hover {
   color: #1898B5;
-}
-
-.about-services-2 {
-  margin-top: 200px;
-  padding: 100px;
-  background-color: #252525;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about-services-2 h5 {
-  color: white;
-}
-.about-services-2 .icon {
-  background: white;
-  border-radius: 50%;
-  padding: 9px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  display: inline-block;
-  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.about-services-2 .icon:hover {
-  transform: translateY(5%);
-}
-
-.about-services-2 .la-facebook:hover {
-  color: rgb(12, 12, 255);
-  font-size: 30px;
-}
-.about-services-2 .la-twitter:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.about-services-2 .la-instagram:hover {
-  color: #AC3FC8;
-  font-size: 30px;
-}
-
-.about-services-2 .la-whatsapp:hover {
-  color: rgba(44, 194, 44, 0.836);
-  font-size: 30px;
-}
-.about-services-2 .la-linkedin-in:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.about-services-2 .la-google-play:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-
-.about-services-2 .la-youtube:hover {
-  color: red;
-  font-size: 30px;
-}
-.about-services-2 p {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 40px;
-  color: black;
-}
-.about-services-2 .tel {
-  margin-left: 2%;
-}
-.about-services-2 .tel a {
-  text-decoration: none;
-}
-.about-services-2 .contact {
-  color: white;
-}
-
-.about-services-2 h6 {
-  margin-top: 20px;
-  font-size: 30px;
-  color: white;
-}
-.about-services-2 .la-map-marked-alt {
-  padding-left: 5%;
-  padding-top: 1%;
-  font-size: 20px;
-  color: white;
-}
-.about-services-2 .la-map-marked-alt:hover {
-  color: red;
-}
-
-.about-services-2 .location {
-  color: white;
-}
-.about-services-2 .email a {
-  color: rgb(12, 12, 255);
 }
 
 .rooms-page2 {
@@ -838,104 +638,6 @@ body {
   box-shadow: 8px 8px 8px 8px rgb(213, 162, 59);
 }
 
-.gallery-page5 {
-  margin-top: 200px;
-  padding: 100px;
-  background-color: #252525;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.gallery-page5 h5 {
-  color: white;
-}
-.gallery-page5 .icon {
-  background: white;
-  border-radius: 50%;
-  padding: 9px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  display: inline-block;
-  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.gallery-page5 .icon:hover {
-  transform: translateY(5%);
-}
-
-.gallery-page5 .la-facebook:hover {
-  color: rgb(12, 12, 255);
-  font-size: 30px;
-}
-.gallery-page5 .la-twitter:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.gallery-page5 .la-instagram:hover {
-  color: #AC3FC8;
-  font-size: 30px;
-}
-
-.gallery-page5 .la-whatsapp:hover {
-  color: rgba(44, 194, 44, 0.836);
-  font-size: 30px;
-}
-.gallery-page5 .la-linkedin-in:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.gallery-page5 .la-google-play:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-
-.gallery-page5 .la-youtube:hover {
-  color: red;
-  font-size: 30px;
-}
-.gallery-page5 p {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 40px;
-  color: black;
-}
-.gallery-page5 .tel {
-  margin-left: 2%;
-}
-.gallery-page5 .tel a {
-  text-decoration: none;
-}
-.gallery-page5 .contact {
-  color: white;
-}
-
-.gallery-page5 h6 {
-  margin-top: 20px;
-  font-size: 30px;
-  color: white;
-}
-.gallery-page5 .la-map-marked-alt {
-  padding-left: 5%;
-  padding-top: 1%;
-  font-size: 20px;
-  color: white;
-}
-.gallery-page5 .la-map-marked-alt:hover {
-  color: red;
-}
-
-.gallery-page5 .location {
-  color: white;
-}
-.gallery-page5 .email a {
-  color: rgb(12, 12, 255);
-}
-
 .restaurant-page2 {
   margin-top: 200px;
   text-align: center;
@@ -969,104 +671,6 @@ body {
   opacity: 0.9;
 }
 
-.restaurant-page6 {
-  margin-top: 200px;
-  padding: 100px;
-  background-color: #252525;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.restaurant-page6 h5 {
-  color: white;
-}
-.restaurant-page6 .icon {
-  background: white;
-  border-radius: 50%;
-  padding: 9px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  display: inline-block;
-  box-shadow: 0 10px 10px rgba(0, 0, 1, 0.5);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.restaurant-page6 .icon:hover {
-  transform: translateY(5%);
-}
-
-.restaurant-page6 .la-facebook:hover {
-  color: rgb(12, 12, 255);
-  font-size: 30px;
-}
-.restaurant-page6 .la-twitter:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.restaurant-page6 .la-instagram:hover {
-  color: #AC3FC8;
-  font-size: 30px;
-}
-
-.restaurant-page6 .la-whatsapp:hover {
-  color: rgba(44, 194, 44, 0.836);
-  font-size: 30px;
-}
-.restaurant-page6 .la-linkedin-in:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-.restaurant-page6 .la-google-play:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
-
-.restaurant-page6 .la-youtube:hover {
-  color: red;
-  font-size: 30px;
-}
-.restaurant-page6 p {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 40px;
-  color: black;
-}
-.restaurant-page6 .tel {
-  margin-left: 2%;
-}
-.restaurant-page6 .tel a {
-  text-decoration: none;
-}
-.restaurant-page6 .contact {
-  color: white;
-}
-
-.restaurant-page6 h6 {
-  margin-top: 20px;
-  font-size: 30px;
-  color: white;
-}
-.restaurant-page6 .la-map-marked-alt {
-  padding-left: 5%;
-  padding-top: 1%;
-  font-size: 20px;
-  color: white;
-}
-.restaurant-page6 .la-map-marked-alt:hover {
-  color: red;
-}
-
-.restaurant-page6 .location {
-  color: white;
-}
-.restaurant-page6 .email a {
-  color: rgb(12, 12, 255);
-}
-
 .contact-page1 {
   margin-top: 100px;
 }
@@ -1096,7 +700,8 @@ body {
   align-items: center;
 }
 .contact-page1 h5 {
-  color: white;
+  color: black;
+  margin-top: 40px;
 }
 .contact-page1 .icon {
   background: white;
@@ -1137,10 +742,6 @@ body {
   color: rgb(53, 53, 237);
   font-size: 30px;
 }
-.contact-page1 .la-google-play:hover {
-  color: rgb(53, 53, 237);
-  font-size: 30px;
-}
 
 .contact-page1 .la-youtube:hover {
   color: red;
@@ -1165,14 +766,278 @@ body {
 .statistics .card {
   background-color: #0d7444;
   height: 190px;
+  border: none;
 }
 .statistics .card .branch {
   font-size: 60px;
   color: white;
   text-align: center;
 }
-.statistics .sm-font {
+.statistics .smt-font {
   color: white;
   font-size: 20px;
   text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Playball", cursive;
+  font-family: "Tangerine", cursive;
+}
+.statistics .second-font {
+  margin-top: 30px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Playball", cursive;
+  font-family: "Tangerine", cursive;
+}
+
+.add-carousel {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+  /* DEMO CSS */
+}
+.add-carousel body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #d1f1ff, #e5ffd1);
+}
+.add-carousel .info {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  max-width: 70ch;
+  margin: 2em auto;
+  padding: 0 1.6rem;
+}
+.add-carousel .info a {
+  font-weight: 600;
+  color: rgb(0, 115, 119);
+}
+.add-carousel .container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.add-carousel .container wee-slider {
+  margin: auto;
+}
+.add-carousel wee-slider {
+  --wee-slide-align: start;
+  --wee-visible-slides-mobile: 1.5;
+  --wee-visible-slides-desktop: 3.5;
+  --wee-visible-slides: var(--wee-visible-slides-mobile);
+  --wee-slide-gap: 10px;
+  --wee-navdot-color: rgb(0,0,0);
+  --wee-transition: ease-in-out 200ms;
+  --wee-slide-width: calc(((100% - (var(--wee-slide-gap) * (var(--wee-visible-slides) - 1))) / var(--wee-visible-slides)));
+}
+@media screen and (min-width: 990px) {
+  .add-carousel wee-slider {
+    --wee-visible-slides: var(--wee-visible-slides-desktop);
+  }
+}
+.add-carousel wee-slider[data-align=start] {
+  --wee-slide-align: start;
+}
+.add-carousel wee-slider[data-align=center] {
+  --wee-slide-align: center;
+}
+.add-carousel wee-slider[data-align=end] {
+  --wee-slide-align: end;
+}
+.add-carousel wee-slider {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.add-carousel wee-slider:not(.loaded) .wee-slider__buttons,
+.add-carousel wee-slider:not(.loaded) .wee-slider__navdots {
+  display: none;
+}
+.add-carousel wee-slider.loaded .wee-slider ::-webkit-scrollbar {
+  display: none;
+}
+.add-carousel wee-slider.loaded .wee-slider {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.add-carousel wee-slider .wee-slider {
+  position: relative;
+  overflow: hidden;
+}
+.add-carousel wee-slider .wee-slider__slides {
+  display: flex;
+  gap: var(--wee-slide-gap);
+  padding: 0;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.add-carousel wee-slider .wee-slider__slide {
+  display: block;
+  min-width: var(--wee-slide-width);
+  background: pink;
+  scroll-snap-align: var(--wee-slide-align);
+  scroll-margin-left: 0;
+  scroll-margin-right: 0;
+}
+.add-carousel wee-slider .wee-slider__buttons button {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+.add-carousel wee-slider .wee-slider__buttons button:not([disabled]) {
+  cursor: pointer;
+}
+.add-carousel wee-slider[data-buttons-on-hover=true] .wee-slider__buttons {
+  opacity: 0;
+  transition: opacity ease-in-out 200ms;
+}
+@media (hover: hover) {
+  .add-carousel wee-slider[data-buttons-on-hover=true]:hover .wee-slider__buttons {
+    opacity: 1;
+  }
+}
+.add-carousel wee-slider .wee-slider__button-next {
+  right: 0;
+}
+.add-carousel wee-slider .wee-slider__navdots {
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.add-carousel wee-slider .wee-slider__navdot {
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+.add-carousel wee-slider .wee-slider__navdot:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  height: 8px;
+  width: 8px;
+  background: var(--wee-navdot-color);
+  border-radius: 50%;
+}
+.add-carousel wee-slider .wee-slider__navdot:hover:after {
+  scale: 1.2;
+}
+.add-carousel wee-slider .wee-slider__navdot:not(.visible) {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.add-carousel wee-slider .wee-slider__slide {
+  height: auto;
+  background: none;
+  opacity: 1;
+}
+.add-carousel wee-slider .slide-content {
+  position: relative;
+  height: 0;
+  padding-bottom: 80%;
+}
+.add-carousel wee-slider .slide-content > img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 1;
+  transition: opacity ease-in-out 80ms;
+}
+.add-carousel wee-slider.loaded .wee-slider__slide:not(.visible) img {
+  opacity: 0.5;
+}
+.add-carousel wee-slider .wee-slider__buttons button {
+  margin: 0 10px;
+  border: none;
+  font-size: 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 24px;
+  border-radius: 50%;
+  transition: scale ease 100ms;
+}
+@media (hover: hover) {
+  .add-carousel wee-slider .wee-slider__buttons button:hover {
+    scale: 1.1;
+  }
+}
+.add-carousel wee-slider .wee-slider__buttons button:before {
+  content: url("data:image/svg+xml,%3Csvg style='color: white' xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: auto;
+}
+.add-carousel .wee-slider__button-prev:before {
+  translate: -60% -50%;
+  rotate: 90deg;
+}
+.add-carousel .wee-slider__button-next:before {
+  translate: -40% -50%;
+  rotate: 270deg;
+}
+
+.special h5 {
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Playball", cursive;
+  font-family: "Tangerine", cursive;
+}
+.special p {
+  margin-top: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Playball", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Tangerine", cursive;
+}
+
+.first-special h5 {
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Playball", cursive;
+  font-family: "Tangerine", cursive;
+}
+.first-special p {
+  margin-top: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Playball", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Tangerine", cursive;
 }
