@@ -141,6 +141,7 @@ var shoppingCart = (function() {
   // ***************************************** 
   // Add item
   $('.add-to-cart').click(function(event) {
+    console.log("salam")
     event.preventDefault();
     var name = $(this).data('name');
     var price = Number($(this).data('price'));

@@ -12,10 +12,7 @@
     <div class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-8">
-                    <div class="mb-3">
-                      <label  class="form-label">Id</label>
-                      <input id="idInp" class="form-control">
-                    </div>
+                   
                     <div class="mb-3">
                         <label  class="form-label">Name</label>
                         <input id="nameInp" class="form-control" >
@@ -49,6 +46,7 @@
   const firebaseConfig = {
     apiKey: "AIzaSyAn01NHMyTIbxpGnlGpAihVD9zUKPIUpJ8",
     authDomain: "final-proyekt.firebaseapp.com",
+    databaseURL: "https://final-proyekt-default-rtdb.firebaseio.com",
     projectId: "final-proyekt",
     storageBucket: "final-proyekt.appspot.com",
     messagingSenderId: "77673434741",
@@ -58,13 +56,13 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
 
-        
-
-
-        import { getDatabase, get, set, remove, update, ref, child } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
-        const db = getDatabase();
-
-        const idInp = document.getElementById("idInp");
+  
+  
+  
+  import { getDatabase, get, set, remove, update, ref, child } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
+  const db = getDatabase();
+  let id = generate_uuidv4()
+  
         const nameInp = document.getElementById("nameInp");
         const imageInp = document.getElementById("imageInp");
         const aboutInp = document.getElementById("aboutInp");
@@ -76,39 +74,54 @@
         
 
         function InsertData(){
-            set(ref(db, "users/" + idInp.value),{
-                Name: nameInp.value,
-                Image: imageInp.value,
-                About: aboutInp.value,
-                Id: idInp.value
-            }).then(
-                alert('Prosses yerine yetirildi!')
-            )
-            .catch(err=>{alert(err)})
-        }
-
-        function UpdateData(){
-            update(ref(db, "users/" + idInp.value),{
-                Name: nameInp.value,
-                Image: imageInp.value,
-                About: aboutInp.value
-            }).then(
-                alert('Prosses yerine yetirildi!')
-            )
-            .catch(err=>alert(err))
-        }
-
-        function RemoveData(){
-            remove(ref(db, "users/" + idInp.value)).then(
-                alert('Element silindi')
-            )
-            .catch(err=>alert(err))
+            set(ref(db,'rooms/'+ generate_uuidv4()), {
+                image: imageInp.value,
+                name: nameInp.value,
+                about: aboutInp.value
+            })
+            .then(res => alert('success'))
+            .catch(err => alert(err))
         }
 
       
         insertBtn.addEventListener('click',InsertData);
         updateBtn.addEventListener('click',UpdateData);
         removeBtn.addEventListener('click',RemoveData);
+        function generate_uuidv4() {
+   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,
+   function(c) {
+      var uuid = Math.random() * 16 | 0, v = c == 'x' ? uuid : (uuid & 0x3 | 0x8);
+      return uuid.toString(16);
+   });
+}
       </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAn01NHMyTIbxpGnlGpAihVD9zUKPIUpJ8",
+    authDomain: "final-proyekt.firebaseapp.com",
+    databaseURL: "https://final-proyekt-default-rtdb.firebaseio.com",
+    projectId: "final-proyekt",
+    storageBucket: "final-proyekt.appspot.com",
+    messagingSenderId: "77673434741",
+    appId: "1:77673434741:web:67fb59b22c5df785f2b23c"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script> -->

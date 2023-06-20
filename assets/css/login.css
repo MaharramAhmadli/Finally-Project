@@ -41,11 +41,11 @@ body{
     animation-delay: .4s;
 }
 
-/* .wrapper.animate-signIn .form-wrapper.sign-in{
+.wrapper.animate-signIn .form-wrapper.sign-in{
     animation: animateSignIn 1.5s ease-in-out forwards;
-} */
+}
 
-/* @keyframes animateSignIn{
+@keyframes animateSignIn{
     0%{
         transform: translateX(0);
     }
@@ -56,7 +56,7 @@ body{
     100%{
         transform: translateX(0) rotate(7deg);
     }
-} */
+}
 
 .wrapper .form-wrapper.sign-up{
     transform: rotate(7deg);

@@ -73,7 +73,7 @@ body {
 }
 
 .menu-icon .like {
-  color: red;
+  color: red !important;
   font-size: 20px;
 }
 .menu-icon .add {
@@ -86,10 +86,6 @@ body {
 }
 .menu-icon .add:hover {
   font-size: 30px;
-}
-
-.card-body {
-  height: 50%;
 }
 
 .home-page2 {
@@ -253,10 +249,6 @@ body {
 
 .carousel .card {
   margin-top: 100px;
-}
-
-.card-body {
-  height: 50%;
 }
 
 .about-slider {
@@ -444,11 +436,12 @@ body {
 }
 .rooms-page3 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
-  width: 30% !important;
+  height: 500px;
   margin: 8px !important;
 }
 
 .rooms-page3 .card:hover {
+  height: 500px;
   font-size: larger;
   background-color: #7225E7;
   color: white !important;
@@ -472,7 +465,6 @@ body {
 
 .rooms-page5 .card {
   border: 1px solid rgba(206, 175, 175, 0.516) !important;
-  width: 30% !important;
   margin: 8px !important;
 }
 
@@ -638,6 +630,48 @@ body {
   box-shadow: 8px 8px 8px 8px rgb(213, 162, 59);
 }
 
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: none;
+}
+
+#loadMore {
+  width: 200px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: blue;
+  transition: 0.3s;
+}
+
+#loadMore:hover {
+  color: blue;
+  background-color: #fff;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
 .restaurant-page2 {
   margin-top: 200px;
   text-align: center;
@@ -646,10 +680,6 @@ body {
   background-color: #D6CEB2;
   width: 100%;
   height: 200px;
-}
-
-.card-body {
-  padding-top: 40px;
 }
 
 .restaurant-page3 {
@@ -669,6 +699,11 @@ body {
 .restaurant-page5 .card:hover {
   background-color: orange;
   opacity: 0.9;
+}
+
+.load-more {
+  margin-left: 47%;
+  margin-top: 50px;
 }
 
 .contact-page1 {

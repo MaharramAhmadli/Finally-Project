@@ -89,7 +89,7 @@ body {
 
 .menu-icon{
     .like{
-        color: $color-12;
+        color: $color-12!important;
         font-size: 20px;
     }
     .add{
@@ -119,9 +119,11 @@ body {
 
 
 
-.card-body {
-    height: 50%;
-}
+
+
+// .card-body {
+//     height: 50%;
+// }
 
 .home-page2 {
     margin-top: 200px;
@@ -410,9 +412,9 @@ body {
 
 
 
-.card-body {
-    height: 50%;
-}
+// .card-body {
+//     height: 50%;
+// }
 
 .about-slider {
     margin-top: 200px;
@@ -680,13 +682,15 @@ body {
 
     .card {
         border: 1px solid rgba(206, 175, 175, 0.516) !important;
-        width: 30% !important;
+        // width: 30% !important;
+        height: 500px;
         margin: 8px !important;
     }
 }
 
 .rooms-page3 {
     .card:hover {
+        height: 500px;
         font-size: larger;
         background-color: $color-18;
         color: $primary-color-hover !important;
@@ -728,7 +732,7 @@ body {
 
     .card {
         border: 1px solid rgba(206, 175, 175, 0.516) !important;
-        width: 30% !important;
+        // width: 30% !important;
         margin: 8px !important;
     }
 }
@@ -979,6 +983,46 @@ body {
 
 
 
+*, body {
+    margin: 0;
+    padding: 0;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    display: none;
+  }
+  #loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: blue;
+    transition: .3s;
+  }
+  #loadMore:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
+
+
+
+
 
 
 
@@ -1001,9 +1045,9 @@ body {
     }
 }
 
-.card-body {
-    padding-top: 40px;
-}
+// .card-body {
+//     padding-top: 40px;
+// }
 
 .restaurant-page3 {
     margin-top: 200px;
@@ -1028,6 +1072,11 @@ body {
         background-color: $color-7;
         opacity: 0.9;
     }
+}
+
+.load-more{
+    margin-left: 47%;
+    margin-top: 50px;
 }
 
 
@@ -1474,5 +1523,11 @@ wee-slider .wee-slider__buttons button:before {
         font-family: 'Tangerine', cursive;
     }
 }
+
+
+
+// .lar-la-heart{
+//     color: $color-12
+// }
 
 
